@@ -1,7 +1,7 @@
 # Batz
 *Capturing the madness*
 
-A freeform note-taking tool for Game Masters. Throw your campaign notes at it naturally as they happen, and Batz keeps track.
+A freeform note-taking tool for Game Masters. Throw your campaign notes at it naturally as they happen, and Batz keeps track. It ain't much (yet), but it's honest work.
 
 ## Usage
 ```bash
