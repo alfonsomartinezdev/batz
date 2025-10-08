@@ -22,8 +22,15 @@ Started session 2
 > the players burn down the tavern
 ✓ Recorded #3 (Session 2)
 
-> list
-# Shows all notes from current session
+> list all
+   Campaign Notes                            
+┏━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ID   ┃ Session ┃ Entry                                           ┃
+┡━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ 1    │ 1       │ low places - seedy bar                          │
+│ 2    │ 1       │ fishhead joe - bouncer with a literal fish head │
+│ 3    │ 2       │ the players burn down the tavern                │
+└──────┴─────────┴─────────────────────────────────────────────────┘
 ```
 
 ## Commands
