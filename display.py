@@ -52,7 +52,8 @@ def _format_entity_text(entity):
     """Helper to format entity display text"""
     if 'name' in entity:
         text = f"[bold]{entity['name']}[/bold]"
-        if 'description' in entity:
-            text += f" - {entity['description']}"
+        if 'traits' in entity and entity['traits']:
+            traits_str = ', '.join(entity['traits'])
+            text += f" - {traits_str}"
         return text
     return entity.get('content', '')
